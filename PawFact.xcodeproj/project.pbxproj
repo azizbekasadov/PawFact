@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5DA7AF6B29B883DF00243769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF6A29B883DF00243769 /* AppDelegate.swift */; };
-		5DA7AF6D29B883DF00243769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF6C29B883DF00243769 /* ViewController.swift */; };
+		5DA7AF6D29B883DF00243769 /* PawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF6C29B883DF00243769 /* PawViewController.swift */; };
 		5DA7AF6F29B883E100243769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7AF6E29B883E100243769 /* Assets.xcassets */; };
-		5DA7AF7229B883E100243769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7AF7029B883E100243769 /* Main.storyboard */; };
 		5DA7AF7D29B883E100243769 /* PawFactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF7C29B883E100243769 /* PawFactTests.swift */; };
 		5DA7AF8729B883E100243769 /* PawFactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF8629B883E100243769 /* PawFactUITests.swift */; };
 		5DA7AF8929B883E100243769 /* PawFactUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF8829B883E100243769 /* PawFactUITestsLaunchTests.swift */; };
+		5DA7AF9A29B8846700243769 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF9929B8846700243769 /* API.swift */; };
+		5DA7AF9E29B884EC00243769 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AF9D29B884EC00243769 /* main.swift */; };
+		5DA7AFA129B88B7C00243769 /* PawWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AFA029B88B7C00243769 /* PawWorker.swift */; };
+		5DA7AFA329B88B9800243769 /* PawBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AFA229B88B9800243769 /* PawBuilder.swift */; };
+		5DA7AFA529B88BCB00243769 /* PawInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AFA429B88BCB00243769 /* PawInteractor.swift */; };
+		5DA7AFA829B88CD100243769 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7AFA729B88CD100243769 /* Fact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +41,21 @@
 /* Begin PBXFileReference section */
 		5DA7AF6729B883DF00243769 /* PawFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7AF6A29B883DF00243769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DA7AF6C29B883DF00243769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DA7AF6C29B883DF00243769 /* PawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawViewController.swift; sourceTree = "<group>"; };
 		5DA7AF6E29B883E100243769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DA7AF7129B883E100243769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA7AF7329B883E100243769 /* PawFact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PawFact.entitlements; sourceTree = "<group>"; };
 		5DA7AF7829B883E100243769 /* PawFactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawFactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7AF7C29B883E100243769 /* PawFactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFactTests.swift; sourceTree = "<group>"; };
 		5DA7AF8229B883E100243769 /* PawFactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawFactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7AF8629B883E100243769 /* PawFactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFactUITests.swift; sourceTree = "<group>"; };
 		5DA7AF8829B883E100243769 /* PawFactUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFactUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DA7AF9929B8846700243769 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5DA7AF9D29B884EC00243769 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5DA7AF9F29B886AE00243769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DA7AFA029B88B7C00243769 /* PawWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawWorker.swift; sourceTree = "<group>"; };
+		5DA7AFA229B88B9800243769 /* PawBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawBuilder.swift; sourceTree = "<group>"; };
+		5DA7AFA429B88BCB00243769 /* PawInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawInteractor.swift; sourceTree = "<group>"; };
+		5DA7AFA729B88CD100243769 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +106,12 @@
 		5DA7AF6929B883DF00243769 /* PawFact */ = {
 			isa = PBXGroup;
 			children = (
-				5DA7AF6A29B883DF00243769 /* AppDelegate.swift */,
-				5DA7AF6C29B883DF00243769 /* ViewController.swift */,
-				5DA7AF6E29B883E100243769 /* Assets.xcassets */,
-				5DA7AF7029B883E100243769 /* Main.storyboard */,
+				5DA7AFA629B88CCD00243769 /* DataLayer */,
+				5DA7AF9529B883E900243769 /* AppLayer */,
+				5DA7AF9829B8846000243769 /* NetworkLayer */,
+				5DA7AF9729B883F400243769 /* PresentationLayer */,
+				5DA7AF9C29B884CE00243769 /* Resources */,
+				5DA7AF9F29B886AE00243769 /* Info.plist */,
 				5DA7AF7329B883E100243769 /* PawFact.entitlements */,
 			);
 			path = PawFact;
@@ -119,6 +132,74 @@
 				5DA7AF8829B883E100243769 /* PawFactUITestsLaunchTests.swift */,
 			);
 			path = PawFactUITests;
+			sourceTree = "<group>";
+		};
+		5DA7AF9529B883E900243769 /* AppLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AF6A29B883DF00243769 /* AppDelegate.swift */,
+				5DA7AF9D29B884EC00243769 /* main.swift */,
+			);
+			path = AppLayer;
+			sourceTree = "<group>";
+		};
+		5DA7AF9629B883EF00243769 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AF6C29B883DF00243769 /* PawViewController.swift */,
+				5DA7AFA429B88BCB00243769 /* PawInteractor.swift */,
+				5DA7AFA229B88B9800243769 /* PawBuilder.swift */,
+				5DA7AFA029B88B7C00243769 /* PawWorker.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5DA7AF9729B883F400243769 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AF9629B883EF00243769 /* Scenes */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		5DA7AF9829B8846000243769 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AF9929B8846700243769 /* API.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5DA7AF9B29B8848000243769 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AF6E29B883E100243769 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5DA7AF9C29B884CE00243769 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AF9B29B8848000243769 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DA7AFA629B88CCD00243769 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AFA929B88CD500243769 /* DTOs */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		5DA7AFA929B88CD500243769 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AFA729B88CD100243769 /* Fact.swift */,
+			);
+			path = DTOs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA7AF6F29B883E100243769 /* Assets.xcassets in Resources */,
-				5DA7AF7229B883E100243769 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA7AF6D29B883DF00243769 /* ViewController.swift in Sources */,
+				5DA7AFA329B88B9800243769 /* PawBuilder.swift in Sources */,
+				5DA7AF6D29B883DF00243769 /* PawViewController.swift in Sources */,
+				5DA7AFA129B88B7C00243769 /* PawWorker.swift in Sources */,
+				5DA7AFA829B88CD100243769 /* Fact.swift in Sources */,
+				5DA7AF9A29B8846700243769 /* API.swift in Sources */,
+				5DA7AF9E29B884EC00243769 /* main.swift in Sources */,
 				5DA7AF6B29B883DF00243769 /* AppDelegate.swift in Sources */,
+				5DA7AFA529B88BCB00243769 /* PawInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,17 +373,6 @@
 			targetProxy = 5DA7AF8329B883E100243769 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5DA7AF7029B883E100243769 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DA7AF7129B883E100243769 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5DA7AF8A29B883E100243769 /* Debug */ = {
@@ -419,19 +494,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PawFact/PawFact.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PawFact/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.PawFact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,19 +524,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PawFact/PawFact.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PawFact/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.PawFact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
